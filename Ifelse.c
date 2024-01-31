@@ -350,26 +350,18 @@ int main() {
     scanf("%d", &c);
     printf("Enter the fourth number: ");
     scanf("%d", &d);
-    int Smax,max;
-    if (a > b) {
-        max =a;
-        Smax =b;
-    } else {
+    int max, smax;
+    if (a>b){
+        max=a;
+        smax=b;}
+    else{
         max=b;
-        Smax= a;
-    } if (max>c && Smax>c){
-        Smax=Smax;
+        smax=a;}
+    if(max>c && smax>c){
         max=max;
-    } else {
-        max=max;
-        Smax=c;
-    } if (max>d && Smax>d){
-        Smax=Smax;
-        max=max;
-    } else{
-        max=max;
-        Smax=d;}
-    printf("Your Second max is %d\n",Smax);  
+        smax=smax;
+    }
+    printf("Your Second max is %d\n",smax);  
     printf("Your  max is %d",max);    
 return 0;
 }
