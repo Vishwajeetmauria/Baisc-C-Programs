@@ -339,29 +339,111 @@
 /***************************************************************************************************************
 FCP020-Write a program to take 4 numbers from the user and output the second max of these 4 numbers.
 **************************************************************************************************************/
-#include <stdio.h>
-int main() {
-    int a ,b , c, d;
-    printf("Enter the first number: ");
-    scanf("%d", &a);
-    printf("Enter the second number: ");
-    scanf("%d", &b);
-    printf("Enter the third number: ");
-    scanf("%d", &c);
-    printf("Enter the fourth number: ");
-    scanf("%d", &d);
-    int max, smax;
-    if (a>b){
-        max=a;
-        smax=b;}
-    else{
-        max=b;
-        smax=a;}
-    if(max>c && smax>c){
-        max=max;
-        smax=smax;
-    }
-    printf("Your Second max is %d\n",smax);  
-    printf("Your  max is %d",max);    
-return 0;
-}
+// #include <stdio.h>
+// int main() {
+//     int a, b, c, d;
+//     printf("Enter the first number: ");
+//     scanf("%d", &a);
+//     printf("Enter the second number: ");
+//     scanf("%d", &b);
+//     printf("Enter the third number: ");
+//     scanf("%d", &c);
+//     printf("Enter the fourth number: ");
+//     scanf("%d", &d);
+//     int max, smax;
+//     if (a > b) {
+//         max = a;
+//         smax = b;
+//     } else {
+//         max = b;
+//         smax = a;
+//     }if (c > max) {
+//         smax = max;
+//         max = c;
+//     } else if (c > smax) {
+//         smax = c;
+//     }if (d > max) {
+//         smax = max;
+//         max = d;
+//     } else if (d > smax) {
+//         smax = d;
+//     }
+//     printf("Your Second max is %d\n", smax);
+//     printf("Your max is %d\n", max);
+
+//     return 0;
+// }
+/************************************************************************************************************
+ Write a program to take 8 numbers from the user and output the second max of these 8 numbers.
+ ************************************************************************************************************/
+//  #include<stdio.h>
+
+//  int main(){
+//     int a,b,c,d,e,f,g,h;
+
+//     printf("Enter the first number: ");
+//     scanf("%d", &a);
+//     printf("Enter the second number: ");
+//     scanf("%d", &b);
+//     printf("Enter the third number: ");
+//     scanf("%d", &c);
+//     printf("Enter the fourth number: ");
+//     scanf("%d", &d);
+//     printf("Enter the fifth number: ");
+//     scanf("%d", &e);
+//     printf("Enter the sixthh number: ");
+//     scanf("%d", &f);
+//     printf("Enter the 7th number: ");
+//     scanf("%d", &g);
+//     printf("Enter the 8thth number: ");
+//     scanf("%d", &h);
+
+//     int max,smax;
+//     if (a>b){
+//         max=a;
+//         smax=b;
+//     }else {
+//         max=b;
+//         smax=a;
+//     }if (c>max){
+//         smax=max;
+//         max=c;
+//     }else if (c>smax){
+//         smax=c;
+//     }if (c>max){
+//         smax=max;
+//         max=c;
+//     }else if (c>smax){
+//         smax=c;
+//     }if (d>max){
+//         smax=max;
+//         max=d;  
+//     }else if (d>smax){
+//         smax=d;
+//     }if (e>max){
+//         smax=max;
+//         max=e;
+//     }else if (e>smax){
+//         smax=e;
+//     }if (f>max){
+//         smax=max;
+//         max=f;      
+//     }else if (f>smax){
+//         smax=f;
+//     }if (g>max){
+//         smax=max;
+//         max=g;
+//     }else if (g>smax){
+//         smax=g;
+//     }if (h>max){
+//         smax=max;
+//         max=h;
+//     }else if (h>smax){
+//         smax=h;
+//     }
+// printf("Maximum number is %d\n",max);
+// printf("Second maximum number is %d\n",smax);
+
+//     return 0;
+//  }
+/***********************************************************************************************************/ 
