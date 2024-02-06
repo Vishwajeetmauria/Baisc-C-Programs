@@ -446,4 +446,44 @@ FCP020-Write a program to take 4 numbers from the user and output the second max
 
 //     return 0;
 //  }
-/***********************************************************************************************************/ 
+/**********************************************************************************************************
+Write a program to take 4 numbers from the user and output the 3rd max of these 4 numbers.
+************************************************************************************************************/ 
+// #include<stdio.h>
+// int main(){
+
+//     int a, b, c,d;
+
+//     printf("Enter Any four numbers :");
+//     scanf("%d %d %d %d",&a,&b,&c,&d);
+//     int max,smax,tmax;
+
+//     if (a>b){
+//         max=a;
+//         smax=b;
+//     }else {
+//         max=b;
+//         smax=a;
+//     }if (c>max){
+//         tmax=smax;
+//         smax=max;
+//         max=c;
+//     }else if (c>smax){
+//         tmax=smax;
+//         smax=c;
+//     }else{
+//         tmax=c;
+//     }if (d>max){
+//         tmax=smax;
+//         smax=max;
+//         max=d;
+//     }else if (d>smax){
+//         tmax=smax;
+//         smax=d;
+//     }else if (d>tmax){
+//         tmax=d;
+//     }
+//     printf("You maximum number is %d\n",max);
+//     printf("Your third max is %d\n",tmax);
+//     return 0;
+// }
